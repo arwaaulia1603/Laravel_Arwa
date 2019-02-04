@@ -9,7 +9,7 @@
             <div class="form-group">
               <div class="form-label-group">
                 <input type="email" id="inputEmail" 
-                class="form-control {{$errors->has('email') ? 'is-invalid' : '' }}" 
+                class="form-control {{$errors->has('email') ? 'is-invalid' : '' } }" 
                 name="email"
                 placeholder="Email address" required="required" autofocus="autofocus">
                 <label for="inputEmail">Email address</label>
