@@ -39,7 +39,7 @@
                 </label>
               </div>
             </div>
-            <button class="btn btn-primary btn-block" type="submit">Login</a>
+            <button class="btn btn-primary btn-block" type="submit">Login</button>
           </form>
           <div class="text-center">
             <a class="d-block small" href="{{route('password.request')}}">Forgot Password?</a>
