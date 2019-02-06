@@ -22,7 +22,7 @@
 					<div class="form-group form-label-group">
 						<input type="text" name="Email"
 						class="form-control"
-						value="{{ old('name',$dt->email) }}"
+						value="{{ old('email',$dt->email) }}"
 						id="iEmail" placeholder="Email" required>
 						<label for="iEmail">Email</label>
 					</div>
