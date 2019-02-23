@@ -43,7 +43,7 @@
 
 <div class="row">
 	<div class="col-md-6 mb-3">
-		<a href="{{ route('admin.user') }}" class="btn btn-primary">[+] Tambah</a>
+		<a href="{{ route('admin.user.add') }}" class="btn btn-primary">[+] Tambah</a>
 	</div>
 	
 	<div class="col-md-6 mb-3">
