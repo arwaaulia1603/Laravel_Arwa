@@ -35,7 +35,7 @@ Route::group(['prefix'=>'admin','middleware'=>['auth']], function(){
 					->middleware('akses.admin');
 
 			Route::get('/setting', 'UserSettingController@form')->name('admin.user.setting');
-			Route::post('setting', 'UserSettingController@update');
+			Route::post('/setting', 'UserSettingController@update');
 		});
 
 	/* Kategori */
