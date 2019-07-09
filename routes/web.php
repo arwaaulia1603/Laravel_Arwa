@@ -49,12 +49,12 @@ Route::group(['prefix'=>'admin','middleware'=>['auth']], function(){
 		
 		Route::get('/edit/{id}','KategoriController@edit')->name('admin.kategori.edit');
 		Route::post('/edit/{id}','KategoriController@update');
-
-		
-			
-
 	});
 
+	/* Produk*/
+	Route::group(['prefix'=>'produk','middleware'=>'akses.admin'],function(){
+		Route::get('/', 'ProdukController@daftar')->name('admin.produk');
+	});
 });
 
 
